@@ -250,6 +250,10 @@ return {
         pyright = {},
         html = {},
 
+				lemminx = {
+          filetypes = { 'xml', 'xsd', 'xsl', 'xslt', 'svg', 'fxml' },
+        },
+
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
@@ -270,7 +274,7 @@ return {
         eslint = {},
         dockerls = {},
         clangd = {},
-        jdtls = {},
+        -- jdtls = {},
       }
 
       -- Ensure the servers and tools above are installed
@@ -306,3 +310,4 @@ return {
     end,
   },
 }
+
